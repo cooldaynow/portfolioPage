@@ -1,0 +1,31 @@
+//AboutRow1
+#sectionAbout {
+  text-align: center;
+  h1 {
+    margin-bottom: 20px;
+    font-size: 38px !important;
+  }
+}
+
+#aboutTextArea {
+  p {
+    text-align: left;
+    padding-bottom: 10px;
+    line-height: 1.6;
+  }
+}
+#iconList {
+	flex-direction:row;
+  a {
+    img {
+      width: 64px;
+      height: auto;
+      display: block;
+      max-width: 100%;
+    }
+  }
+}
+
+#photoCard {
+  border-style: none;
+}
