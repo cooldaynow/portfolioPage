@@ -12,18 +12,16 @@ class Skeleton extends Component {
   render() {
     return (
       <Container fluid id="container">
-        <header>
-          <Navigation />{' '}
-        </header>
+        <Navigation />{' '}
         <Row className="mx-0">
           <Col sm={12} md={12} className="px-0">
             <main>
               <section id="home">
                 <Container fluid>
                   <Row>
-                    <Col sm={12} md={12}>
-                      <div className="intro">
-                        <div className="intro-text">
+                    <Col sm={12} md={12} className="intro">
+                      <div>
+                        <div className="intro__text">
                           <h1>
                             Hey <span>i'am spuvec </span>
                           </h1>

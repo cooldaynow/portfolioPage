@@ -3,16 +3,12 @@ import {Container, Row, Col} from 'reactstrap';
 import './index.scss';
 import {AboutText} from './AboutRow1/AboutText';
 import PhotoCard from './AboutRow1/PhotoCard';
-import SkillsList from './AboutRow1/SkillsList';
+import AboutIcon from './AboutRow1/AboutIcon';
 
 class SectionAbout extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
-      <Container id={'sectionAbout'}>
+      <Container className={'about__section'}>
         <h1>
           About <span>Me</span>{' '}
         </h1>
@@ -20,9 +16,9 @@ class SectionAbout extends Component {
           <Col md={4}>
             <PhotoCard />
           </Col>
-          <Col md={8} >
+          <Col md={8}>
             <AboutText />
-						<SkillsList />
+            <AboutIcon />
           </Col>
         </Row>
       </Container>

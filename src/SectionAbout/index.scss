@@ -1,31 +1,47 @@
-//AboutRow1
-#sectionAbout {
+//AboutSection
+
+#about {
+  border-top: 50px solid transparent;
+  margin-top: -55px;
+  padding-top: 55px;
+  min-height: 100vh;
+}
+.about__section {
   text-align: center;
   h1 {
     margin-bottom: 20px;
     font-size: 38px !important;
+    font-weight: 700;
+    span {
+      color: #339beb;
+    }
   }
 }
 
-#aboutTextArea {
+.about__text {
   p {
     text-align: left;
     padding-bottom: 10px;
     line-height: 1.6;
   }
 }
-#iconList {
-	flex-direction:row;
+.about__card {
+  border-style: none;
+}
+.about__icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+  li {
+    list-style-type: none;
+  }
   a {
     img {
-      width: 64px;
+      width: 45px;
       height: auto;
       display: block;
       max-width: 100%;
     }
   }
-}
-
-#photoCard {
-  border-style: none;
 }

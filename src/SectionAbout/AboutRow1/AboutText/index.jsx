@@ -1,8 +1,8 @@
 import React from 'react';
 
-export function AboutText({}) {
+export function AboutText() {
   return (
-    <div id="aboutTextArea">
+    <div className ="about__text">
       <p>
         Bruce Wayne was born to the wealthy doctor Thomas Wayne and his wife
         Martha, who were themselves members of the prestigious Wayne and Kane

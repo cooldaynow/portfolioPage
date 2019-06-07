@@ -1,32 +1,32 @@
 //@format
+//NAVIGATION
+
 .navigation {
-  min-height: 100px;
+  min-height: 50px;
   opacity: 0.8;
   transition: all 0.2s ease-in;
-}
-.spaceItem {
-  width: 50%;
-  justify-content: space-between;
-}
-.navbar a {
-  color: white;
-  opacity: 1;
-  padding: 10px 24px;
-  transition: color 0.2s ease-in;
-  font-size: 20px;
-  &:hover {
-    color: #55acee;
+  a {
+    color: white;
+    opacity: 1;
+    padding: 10px 24px;
+    font-size: 16px;
+    transition: all 0.3s linear;
+    &:hover {
+      color: #55acee;
+    }
   }
 }
+
 .move {
-  padding: 5px 0;
   background-color: rgba(0, 0, 0, 0.95) !important ;
-  min-height: 80px !important;
   opacity: 1;
+  min-height: 40px;
+  a {
+    font-size: 14px;
+  }
 }
 .current {
   a {
     color: #55acee !important;
   }
 }
-

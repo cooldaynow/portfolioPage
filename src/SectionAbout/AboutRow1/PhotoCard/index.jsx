@@ -1,12 +1,12 @@
 import React from 'react';
 import { Card, CardImg, CardText, CardBody,
-  CardTitle,  Button } from 'reactstrap';
+  CardTitle} from 'reactstrap';
 import batman from '../../../images/batman.jpeg';
 
 const PhotoCard= (props) => {
   return (
     <div >
-      <Card id = 'photoCard'>
+      <Card className = 'about__card'>
         <CardImg top src={batman} alt="Photo image cup" id = 'cardImg' />
         <CardBody >
           <CardTitle>Bruce Wayne</CardTitle>

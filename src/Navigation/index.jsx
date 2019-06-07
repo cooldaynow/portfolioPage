@@ -6,7 +6,6 @@ import {
   Navbar,
   NavbarToggler,
   NavbarBrand,
-  Nav,
   NavItem,
   NavLink,
 } from 'reactstrap';
@@ -41,26 +40,26 @@ export class Navigation extends Component {
   }
   render() {
     return (
-      <div>
+      <header>
         <Navbar
           color="dark"
           dark
-          expand="lg"
+          expand="md"
           fixed={'top'}
-          className={'navigation ' + this.state.activeClass}>
+          className={'navigation '  + this.state.activeClass}>
           <NavbarBrand href="#">Portfolio Page</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
-          <Collapse isOpen={this.state.isOpen} navbar>
+          <Collapse isOpen={this.state.isOpen} navbar right ={'true'}>
             <Scrollspy
               items={['home', 'about', 'projects', 'contacts']}
 							offset = {-90}
               currentClassName="current"
-              className="nav ml-auto spaceItem">
+              className="nav ml-auto">
               <NavItem>
                 <NavLink href="#home">Home</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#about">About</NavLink>
+                <NavLink href="#about" className = 'a'>About</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="#projects">Projects</NavLink>
@@ -71,7 +70,7 @@ export class Navigation extends Component {
             </Scrollspy>
           </Collapse>
         </Navbar>
-      </div>
+      </header>
     );
   }
 }
