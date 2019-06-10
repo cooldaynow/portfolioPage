@@ -1,0 +1,12 @@
+#contacts {
+  height: 100vh;
+  text-align: center;
+}
+.contacts__container {
+  height: 55vh;
+  display: flex;
+  align-items: center;
+  .row {
+    width: 100%;
+  }
+}

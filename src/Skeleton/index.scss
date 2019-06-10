@@ -3,70 +3,41 @@
 
 /* BODY */
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
-    line-height: 1.50;
-    color: #333333;
-    background-color: #ffffff;
-    position: relative;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333333;
+  background-color: #ffffff;
+  position: relative;
 }
-
 .row {
   margin: 0;
 }
-#container {
+.container-fluid {
   padding: 0;
 }
 
-/* HOME */
-#home {
-  height: 100vh;
-  min-width: 100%;
-  background-image: url(../images/bg.jpg);
-  position: relative;
-  background-size: 100% 100%;
-  &:after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.72);
-    content: '';
-  }
-  h1 {
-    font-size: 49px !important;
-    font-weight: 700;
-    span {
-      color: #339beb;
-    }
+.marginTop {
+  border-top: 50px solid transparent;
+  margin-top: -55px;
+  padding-top: 55px;
+}
+.h2 {
+  margin-bottom: 20px;
+  font-size: 38px !important;
+  font-weight: 700;
+  span {
+    color: #339beb;
   }
 }
-.intro {
-  min-height: 100vh;
-  position: relative;
-  color: white;
-}
-.intro__text {
-  text-align: center;
-  position: absolute;
-  top: 40%;
-  width: 100%;
-  z-index: 1;
-  font-size: 20px;
-}
-/* ABOUT */
 
+a:hover {
+text-decoration:none;
+}
+/* HOME */
+
+/* ABOUT */
 
 /* PROJECTS */
 
-#projects {
-  height: 100vh;
-  background-color: lightyellow;
-}
 /* CONTACTS */
-
-#contacts {
-  height: 100vh;
-  background-color: lightgreen;
-}

@@ -1,22 +1,11 @@
 //AboutSection
 
 #about {
-  border-top: 50px solid transparent;
-  margin-top: -55px;
-  padding-top: 55px;
   min-height: 100vh;
 }
 .about__section {
   text-align: center;
-  h1 {
-    margin-bottom: 20px;
-    font-size: 38px !important;
-    font-weight: 700;
-    span {
-      color: #339beb;
-    }
   }
-}
 
 .about__text {
   p {

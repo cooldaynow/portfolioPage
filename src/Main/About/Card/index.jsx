@@ -3,7 +3,7 @@ import { Card, CardImg, CardText, CardBody,
   CardTitle} from 'reactstrap';
 import batman from '../../../images/batman.jpeg';
 
-const PhotoCard= (props) => {
+const AboutCard= (props) => {
   return (
     <div >
       <Card className = 'about__card'>
@@ -18,4 +18,4 @@ const PhotoCard= (props) => {
   );
 };
 
-export default PhotoCard;
+export default AboutCard;
