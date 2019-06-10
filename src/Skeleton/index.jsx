@@ -35,7 +35,6 @@ class Skeleton extends Component {
             <footer>
               <section id="contacts" className={'marginTop'}>
                 <h2 className="h2">
-                  {' '}
                   Contact <span>Me</span>{' '}
                 </h2>
                 <Contacts />
