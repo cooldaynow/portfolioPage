@@ -8,7 +8,7 @@ import Home from '../Main/Home';
 import About from '../Main/About';
 import Projects from '../Main/Projects';
 import Contacts from '../Footer/Contacts';
-
+import NavbarBottom from '../Footer/NavbarBottom';
 class Skeleton extends Component {
   componentDidMount() {
     // $('#home').backstretch('../images/banner.jpg');
@@ -34,9 +34,13 @@ class Skeleton extends Component {
             </main>
             <footer>
               <section id="contacts" className={'marginTop'}>
-                <h2 className="h2"> Contact Me </h2>
+                <h2 className="h2">
+                  {' '}
+                  Contact <span>Me</span>{' '}
+                </h2>
                 <Contacts />
               </section>
+              <NavbarBottom />
             </footer>
           </Col>
         </Row>

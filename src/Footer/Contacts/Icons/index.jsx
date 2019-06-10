@@ -13,18 +13,15 @@ const Icons = () => {
   const vk = <FontAwesomeIcon icon={faVk} />;
 
   return (
-    <Col md={5} lg={5} sm={12} className = 'contacts__col'>
+    <Col md={5} lg={5} sm={12} className="contacts__col">
       <ul>
         <li>
-          <span>
-            <a href="tel: 89200008936"> {phone} </a> 8-920-000-89-36
-          </span>
+          <a href="tel: 89200008936"> {phone} 8-920-000-89-36 </a>
         </li>
         <li>
-          <span>
-            <a href="mailto: cooldaynow@gmail.com"> {email} </a>
-            cooldaynow@gmail.com
-          </span>
+          <a href="mailto: cooldaynow@gmail.com">
+            {email} cooldaynow@gmail.com
+          </a>
         </li>
       </ul>
       <ul className="contacts__icon">
@@ -32,7 +29,7 @@ const Icons = () => {
           <a href="skype:topovermira?chat"> {skype} </a>
         </li>
         <li>
-          <a href="mailto: cooldaynow@gmail.com"> {github} </a>
+          <a href="https://github.com/cooldaynow"> {github} </a>
         </li>
         <li>
           <a href="https://vk.com/id4471271"> {vk} </a>
