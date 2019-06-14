@@ -8,9 +8,7 @@ import {
   Collapse,
   Navbar,
   NavbarToggler,
-  NavbarBrand,
   NavItem,
-  NavLink,
 } from 'reactstrap';
 
 export class Navigation extends Component {
