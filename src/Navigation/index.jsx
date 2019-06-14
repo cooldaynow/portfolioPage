@@ -1,5 +1,8 @@
 import React, {Component} from 'react';
 import './index.scss';
+
+//import {Link} from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import Scrollspy from 'react-scrollspy';
 import {
   Collapse,
@@ -47,7 +50,7 @@ export class Navigation extends Component {
           expand="md"
           fixed={'top'}
           className={'navigation '  + this.state.activeClass}>
-          <NavbarBrand href="#">Portfolio Page</NavbarBrand>
+          <Link to="/">Portfolio Page</Link>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar right ={'true'}>
             <Scrollspy
@@ -56,16 +59,16 @@ export class Navigation extends Component {
               currentClassName="current"
               className="nav ml-auto">
               <NavItem>
-                <NavLink href="#home">Home</NavLink>
+                <Link to="/#home">Home</Link>
               </NavItem>
               <NavItem>
-                <NavLink href="#about" className = 'a'>About</NavLink>
+                <Link to="/#about" className = 'a'>About</Link>
               </NavItem>
               <NavItem>
-                <NavLink href="#projects">Projects</NavLink>
+                <Link to="/#projects">Projects</Link>
               </NavItem>
               <NavItem>
-                <NavLink href="#contacts">Contacts</NavLink>
+                <Link to="/#contacts">Contacts</Link>
               </NavItem>
             </Scrollspy>
           </Collapse>

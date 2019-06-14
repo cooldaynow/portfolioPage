@@ -1,8 +1,5 @@
 import React from 'react';
-import {Navbar, Nav} from 'reactstrap';
 import '../NavbarBottom/index.scss';
-
-var style = {};
 
 const NavbarBottom = () => {
   return (

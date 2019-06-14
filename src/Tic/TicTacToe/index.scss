@@ -1,0 +1,60 @@
+
+button {
+  font-family: 'Architects Daughter', cursive;
+}
+.win {
+  background: #ff8000 !important;
+  color: #00bfff !important;
+}
+#tic__tac{
+	font-family: 'Architects Daughter', cursive !important;
+  font-size: 18px !important;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff8dc;
+}
+.buttons {
+  padding: 0;
+  width: 120px;
+  height: 120px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: 1px solid darkgrey!important;
+	box-shadow:none!important;
+  font-size: 6.5rem;
+  outline: none!important;
+  color: white;
+  cursor: pointer;
+	z-index:3;
+}
+.disabled {
+	color: darkgrey;
+	background-color:darkgrey;
+	opacity:.65;
+}
+.screen {
+  display: flex;
+  width: 360px;
+  flex-flow: row wrap;
+  background: radial-gradient(rgba(40, 40, 40, 1), black);
+	z-index:3;
+}
+.tic__tac__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5%;
+  box-shadow: inset -1px 1px 7px rgba(0, 0, 0, 0.2),
+    inset 1px -1px 7px rgba(0, 0, 0, 0.2), 1px 12px 5px rgba(0, 0, 0, 0.4),
+    4px 3px 8px rgba(0, 0, 0, 0.4), 5px 10px 10px rgba(0, 0, 0, 0.2),
+    -5px 10px 10px rgba(0, 0, 0, 0.4);
+  width: 400px;
+  height: 450px;
+  background: rgba(240, 180, 135, 1);
+  z-index: 2;
+}
