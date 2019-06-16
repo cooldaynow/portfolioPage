@@ -12,10 +12,8 @@ import './index.scss';
 class Projects extends Component {
   state = {
     cards: [
-      {src: weather, href: '/', name: 'Simple Weather Viewer'},
+      {src: weather, href: '/SimpleWeatherViewer', name: 'Simple Weather Viewer'},
       {src: ticTacToe, href: '/TicTacToe', name: 'Simple Tic-Tac-Toe'},
-      {src: weather, href: '/#about', name: 'Simple Weather Viewer'},
-      {src: weather, href: '/#about', name: 'Simple Weather Viewer'},
     ],
   };
   renderProjects = () => {

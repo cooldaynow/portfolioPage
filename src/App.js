@@ -4,6 +4,7 @@ import {Container} from 'reactstrap';
 import {Navigation} from './Navigation';
 import Skeleton from './Skeleton';
 import TicTacToe from './Tic/TicTacToe';
+import SimpleWeatherViewer from './Weather/SimpleWeatherViewer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Navigation />
         <Route exact path="/" component={Skeleton} />
         <Route path="/TicTacToe" component={TicTacToe} />
+        <Route path="/SimpleWeatherViewer" component={SimpleWeatherViewer} />
       </Container>
     </Router>
   );

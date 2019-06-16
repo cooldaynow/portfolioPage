@@ -1,0 +1,12 @@
+.weather__navigation {
+	width:100%;
+	align-self:center;
+	margin-bottom:100px;
+}
+.weather__brand {
+	text-decoration: none;
+	font-size:20px;
+	&:hover {
+		text-decoration:none;
+	}
+}

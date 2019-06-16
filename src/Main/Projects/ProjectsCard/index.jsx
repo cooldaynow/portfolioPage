@@ -10,7 +10,7 @@ import {
 
 const ProjectsCard = props => {
   return (
-    <Col md={3} lg={3} sm={6}>
+    <Col md={6} lg={6} sm={6}>
       <Card className="projects__card">
         <Link to={props.href}>
           {' '}

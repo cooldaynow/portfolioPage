@@ -23,7 +23,7 @@ class Skeleton extends Component {
             </section>
             <section id="projects" className={'marginTop'}>
               <h2 className="h2"> Projects </h2>
-              <p> Click on the image to see the project description.</p>
+              <p> Click on the image to see the project.</p>
               <Projects />
             </section>
           </main>
