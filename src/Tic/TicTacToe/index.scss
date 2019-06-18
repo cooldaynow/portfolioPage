@@ -1,13 +1,10 @@
 
-/*button {
-  font-family: 'Architects Daughter', cursive;
-}*/
 .win {
   background: #ff8000 !important;
   color: #00bfff !important;
 }
 #tic__tac{
-	font-family: 'Architects Daughter', cursive !important;
+  font-family: 'Architects Daughter', cursive !important;
   font-size: 18px !important;
   display: flex;
   flex-direction: column;
@@ -24,7 +21,7 @@
   background-color: transparent;
   background-repeat: no-repeat;
   border: 1px solid darkgrey!important;
-	box-shadow:none!important;
+  box-shadow:none!important;
   font-size: 6.5rem;
   outline: none!important;
   color: white;
@@ -32,9 +29,9 @@
 	z-index:3;
 }
 .disabled {
-	color: darkgrey;
-	background-color:darkgrey;
-	opacity:.65;
+  color: darkgrey;
+  background-color:darkgrey;
+  opacity:.65;
 }
 .screen {
   display: flex;
